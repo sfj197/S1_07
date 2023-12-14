@@ -17,7 +17,7 @@ public class TrabajadorPresencial extends Trabajador {
 		
 		int sueldo = 0;
 		
-		sueldo = numHoras * super.precioHora + gasolina;
+		sueldo = super.calcularSueldo(numHoras) + gasolina;
 		
 		return sueldo;
 	}
