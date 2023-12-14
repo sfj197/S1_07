@@ -1,6 +1,6 @@
 package n1ejercicio1;
 
-public  class Trabajador implements CalcularSueldo{
+public  class Trabajador {
 	
 	protected String nombre;
 	protected String apellido;
