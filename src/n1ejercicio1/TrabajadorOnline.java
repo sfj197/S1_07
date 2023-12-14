@@ -24,7 +24,7 @@ public class TrabajadorOnline extends Trabajador {
 
 		int sueldo = 0;
 
-		sueldo = numHoras * super.precioHora + tarifa;
+		sueldo = super.calcularSueldo(numHoras) + tarifa;
 
 		return sueldo;
 
